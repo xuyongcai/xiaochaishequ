@@ -1,0 +1,280 @@
+body, input, textarea, select, button {
+    font-family: punctuation,"PingFangSC-Regular","Microsoft Yahei","sans-serif";
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figure {
+    margin: 0;
+    padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f8f8f8;
+    min-width: 1180px;
+ /*   min-height: 1200px;*/
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.3px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*------------------------header-----------------------*/
+.header .logo_box{
+	margin: 32px auto 26px;
+	text-align: center;
+	font-size: 22px;
+}
+.header .logo_box .logo_pho{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: #292929;
+}
+.header .logo_box .logo_pho a img{
+	width: 100%;
+}
+/*------------------main------------------------*/
+/*form_panel*/
+.form_panel{
+	width: 340px;
+	margin: 0px auto;
+	padding: 0 16px;
+	box-sizing: border-box;
+}
+.form_panel .login_box{
+	border: 1px solid #ccc;
+	padding:16px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.form_panel .login_box .login_caption_box{
+	margin-bottom: 16px;
+}
+.form_panel .login_box .login_caption_box .login_caption{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+.form_panel .login_box .login_caption_box p{
+	text-align: right;
+	font-size: 14px;
+}
+.form_panel .login_box .login_caption_box>p .tips{
+	float: left;
+	color: #ff5b5b;
+	display: none;
+}
+.form_panel .login_box .login_caption_box p a{
+	color:#459ae9;
+}
+.form_panel .login_box .login_caption_box p a:hover{
+	text-decoration: underline;
+}
+.form_panel .login_box .login_center_box .login_input{
+	position: relative;
+    padding: 3px 0 3px 35px;
+    border: 1px solid #ccc;
+    margin-top: 16px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+.form_panel .login_box .login_center_box .login_input input{
+    height: 32px;
+	border: none;
+    outline: none;
+    padding: 8px 6px;
+    vertical-align: middle;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form_panel .login_box .login_center_box .login_input .iconfont{
+	position: absolute;
+	left: 8px;
+    top: 50%;
+    margin-top: -12px;
+    color: #ccc;
+    font-size: 22px;
+}
+.form_panel .login_box .login_center_box .login_help{
+	font-size: 14px;
+	margin-bottom: 14px;
+}
+.form_panel .login_box .login_center_box .login_help label{
+	/*float: left;*/
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    margin-right: 1em;
+}
+.form_panel .login_box .login_center_box .login_help label input{
+	vertical-align: middle;
+    margin-right: 3px;
+	
+}
+.form_panel .login_box .login_center_box .login_help label span{
+	vertical-align: middle;
+}
+.form_panel .login_box .login_center_box .login_help>a{
+	float: right;
+    color: #459ae9;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.form_panel .login_box .login_center_box .login_help>a:hover{
+	text-decoration: underline;
+}
+.form_panel .login_box .login_center_box .login_btn .login_sub{
+	width: 100%;
+	display: block;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    background: #459ae9;
+    background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+    cursor: pointer;
+    /*margin-bottom: 16px;*/
+}
+.form_panel .login_box .login_foot_box{
+    color: #808080;
+    font-size: 12px;
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid #e6e6e6;
+    overflow: hidden;
+}
+.form_panel .login_box .login_foot_box>span{
+	float: left;
+}
+.form_panel .login_box .login_foot_box .other_login_list{
+	float: left;
+}
+.form_panel .login_box .login_foot_box .other_login_list li{
+	float: left;
+	margin-right: 15px;
+	margin-top: -4px;
+}
+.form_panel .login_box .login_foot_box .other_login_list li a{	
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/loginWin_icons_v2_828f8e6.png) no-repeat;
+}
+.form_panel .login_box .login_foot_box .other_login_list li a.weixin_login{
+    background-position: 0 -209px;
+}
+.form_panel .login_box .login_foot_box .other_login_list li a.qq_login{
+    background-position: -44px -209px;
+}
+.form_panel .login_box .login_foot_box .other_login_list li a.weibo_login{
+    background-position: -88px -209px;
+}
+
+/*phone_login*/
+.form_panel .phone_login{
+	display: none;
+}
+.form_panel .login_box .login_center_box .phone_pwd_box{
+	padding: 0;
+	border: none;
+	overflow: hidden;
+}
+.form_panel .login_box .login_center_box .login_input .phone_pwd{
+	float: left;
+	width: 45%;
+	height: 40px;
+	padding: 8px 6px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.form_panel .login_box .login_center_box .login_input .get_pwd_btn{
+	float: right;
+	width: 45%;
+	height: 40px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+    background: #459ae9;
+    background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
+    cursor: pointer;
+}
+/*qrcode_login*/
+.form_panel .login_box .qrcode_head{
+	font-size: 16px;
+	margin: 26px 0 16px;
+}
+.form_panel .login_box .qrcode_center{
+	width: 152px;
+	height: 152px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.form_panel .login_box .qrcode_center img{
+	width: 100%;
+}
+.form_panel .login_box .qrcode_foot{
+	margin: 10px 0 26px;
+	font-size: 14px;
+}
+.form_panel .login_box .qrcode_foot .qr_login_tip{
+	text-align: center;
+	margin-bottom: 24px;
+}
+.form_panel .login_box .qrcode_foot .qr_login_tip strong{
+	color: #459ae9;
+}
+.form_panel .login_box .qrcode_foot .qr_login_link{
+	text-align: right;
+}
+.form_panel .login_box .qrcode_foot .qr_login_link a{
+	color: #459ae9;
+	margin-right: 12px;
+}
+.form_panel .login_box .qrcode_foot .qr_login_link a:hover{
+	text-decoration: underline;
+}
+/*-------------------------footer-------------------*/
+.footer {
+	/*margin-top: 32px;*/
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+    border-top: 1px solid #E7E7E7;
+    font-size: 12px;
+    text-align: center;
+    background-color: #f8f8f8;
+ }
+.footer p{
+    color: #898989;
+    height: 55px;
+    line-height: 55px;
+}
+.footer p a{
+    color: #898989;
+    margin: 0 3px;
+}
+.footer p a:hover{
+	text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 517659 */
+  src: url('//at.alicdn.com/t/font_517659_h706u0uo4140wwmi.eot');
+  src: url('//at.alicdn.com/t/font_517659_h706u0uo4140wwmi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_517659_h706u0uo4140wwmi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_517659_h706u0uo4140wwmi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_517659_h706u0uo4140wwmi.svg#iconfont') format('svg');
+}

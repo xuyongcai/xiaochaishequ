@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册账号</title>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo_box">
+				<div class="logo_pho">
+					<a href="/index.html"><img src="../img/logo_w.png"/></a>
+				</div>
+				<p class="logo_txt">小柴社区</p>
+			</div>
+		</div>
+		<div class="main">
+			<div class="main_panel">
+				<div class="main_inner">
+					<div class="head">
+						<h1 class="h1">欢迎加入小柴社区</h1>
+					</div>
+					<div class="form_container">
+						<form action="">
+							<div class="form_item">
+								<div class="input_box">
+									<input type="text" name="userName" id="userName" class="user_name f_input" placeholder="设置用户名" />
+									<i class="iconfont cpt_icon">&#xe993;</i>
+								</div>
+								<div class="tips">
+									<i class="iconfont l_arrow_icon">&#xe660;</i>
+									<ul>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>5-25个字符，推荐使用中文</li>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>设置后不能更改</li>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>请勿包含身份证/银行卡等隐私信息银行卡等隐私信息</li>
+									</ul>
+								</div>
+								<div class="error_tips">用户名不能为空</div>
+							</div>
+							<div class="form_item">
+								<div class="input_box">
+									<input type="password" name="password" id="password" class="password f_input" placeholder="密码"/>
+									<i class="iconfont cpt_icon">&#xe993;</i>
+								</div>
+								<div class="tips">
+									<i class="iconfont l_arrow_icon">&#xe693;</i>
+									<ul>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>不能包括空格</li>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>长度为6-16个字符</li>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>字母、数字、符号至少包含2种</li>
+									</ul>
+								</div>
+								<div class="error_tips">密码不能为空</div>
+							</div>
+							<div class="form_item">
+								<div class="input_box">
+									<input type="password" name="c_password" id="c_password" class="password f_input" placeholder="确认密码" />
+									<i class="iconfont cpt_icon">&#xe993;</i>
+								</div>	
+								<div class="tips">
+									<i class="iconfont l_arrow_icon">&#xe693;</i>
+									<ul>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>请再次输入你的密码</li>
+									</ul>
+								</div>
+								<div class="error_tips">请再次输入你的密码</div>
+							</div>
+							<div class="form_item">
+								<div class="input_box">
+									<span class="input_before">+86</span>
+									<input type="text" name="phone" id="phone" class="phone f_input" placeholder="手机号码" />
+									<i class="iconfont cpt_icon">&#xe993;</i>
+								</div>	
+								<div class="tips">
+									<i class="iconfont l_arrow_icon">&#xe693;</i>
+									<ul>
+										<li class="tips_item"><i class="iconfont dot_icon">&#xe611;</i>可通过手机号找回密码</li>
+									</ul>
+								</div>
+								<div class="error_tips">请填写手机号</div>
+							</div>							
+							<div class="form_item">
+								<input type="submit" name="sbm" id="sbm" class="sbm" value="立即注册" />			
+							</div>
+							<div class="form_item">
+								<div class="foot">
+									<label>
+										<input type="checkbox" id="readChecked" checked="checked"/>
+									</label>
+									<a href="#">《小柴社区服务条款》</a>
+									<span class="divide"></span>
+									<a href="#">《法律声明和隐私权政策》</a>
+									<div class="error_tips">请先同意服务条款</div>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<p>
+				©2017 xiaochai 版权所有
+				<a rel="noreferrer" href="">关于小柴</a>
+				<a rel="noreferrer" href="">社区协议</a>
+				<a rel="noreferrer" href="">投诉反馈</a>
+				<a class="jgwab" rel="noreferrer" href="" target="_blank">京公网安备 000000000号<i></i></a>
+			</p>		
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/register.js"></script>

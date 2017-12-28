@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小柴论坛_大学生论坛_大学生_大学生网站</title>
+		<meta name='keywords' content='大学生,大学生论坛,小柴,小柴论坛,校内表白墙' />
+    	<meta name='description' content='小柴论坛是一个影响亿万大学生的论坛，为大学生提供讨论、校内信息、情感表达、生活娱乐、校内二手交易；专注于大学生的论坛，依你所想，给你所需！' />
+		
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	
+	<body>
+		<div class="header">
+			<!--topNavWrapper-->
+            <div class="top_nav_wrap">
+       			<div class="top_nav_panel">
+       				<div class="top_login_box">
+		          		<span>您好，请</span>
+		           		<a class="top_login" rel="nofollow" href="html/login.html" onclick="">登录</a>
+		            	<a class="top_register" rel="nofollow" href="html/register.html" onclick="">免费注册</a>
+	       			</div>
+	       			<ul class="top_nav">
+			            <li class="top_my_college">
+			                <a href="html/home.html" onclick="">我的大学<i class="drowdown_arrow"></i></a>
+			            </li>
+			            <li class="service_center">
+			            	<a href="" onclick="">服务中心<i class="drowdown_arrow"></i></a>
+			            </li>
+			            <li class="top_join_us">
+			            	<a href="" onclick="">加入我们<i class="drowdown_arrow"></i></a>
+			            </li>
+			            <li class="mobile_xc">
+			                <a href="" onclick="">下载手机端<em class="iconfont phone_icon"></em></a>
+			                <div>
+			                    <a href="" onclick="">
+			                        <img class="img" src="img/appQRCode.jpg" />
+			                    </a>
+			                </div>
+			                <span></span>
+			            </li>
+			            <li class="weixin_xc">
+			                <a href="javascript:;">关注微信<em class="iconfont weixin_icon"></em></a>
+			                <div>
+			                	<a href="" onclick="">
+			                        <img class="img" src="img/appQRCode.jpg" />
+			                    </a>
+			                </div>
+			                <span></span>
+			            </li>
+			        </ul>
+       			</div>
+		    </div>
+		    <!--headerWrapper-->
+		    <div class="header_wrap">
+		    	<div class="header_panel">
+			        <div class="logo_box">
+			            <div class="logo" title="小柴社区">
+						    <a rel="nofollow" href="" target="_top" nsrc="" data-CreatorId="" title="小柴论坛">
+						    	<div class="logo_pic"><img class="img" src="img/logo_w.png" alt="小柴社区" /></div>
+						    	<span>小柴社区</span>
+						    </a>
+				    	</div>
+			            <!--<div class="now_city">
+			                <a href="">广州<i></i></a>
+			            </div>-->
+			        </div>
+			        <form name="f" class="search_form" action="#" onsubmit="">
+						<div class="search_type" id="searchType">
+							<span>全部</span>
+							<i class="Serch_type_icon drowdown_arrow"></i>
+							<ul class="search_extend" id="searchExtend">
+								<li>全部</li>
+								<li>图片</li>
+								<li>文章</li>
+								<li>视频</li>
+							</ul>
+						</div>
+			        	<div class="input_txt_box">
+			        		<input class="search_key" name="SerchKey" type="text" placeholder="请输入关键字" autocomplete="off" size="42" tabindex="1" id="wd1" maxlength="100"/>
+			        	</div>
+			        	<input type="submit" name="SearchButton" class="search_btn" value="搜索" />		         
+			        </form>
+		    	</div>
+		    </div>
+		    <!--bannerWrapper-->
+		    <div class="banner_wrap">
+		    	<div class="banner_panel">	
+					<!--<div class="swiper-container banner_box">
+						<ul class="slideshow_list swiper-wrapper">
+							<li class="slideshow_item swiper-slide"><img src="img/slidepic1.jpg" /></li>
+							<li class="slideshow_item swiper-slide"><img src="img/slidepic2.jpg" /></li>
+							<li class="slideshow_item swiper-slide"><img src="img/slidepic3.jpg" /></li>
+							<li class="slideshow_item swiper-slide"><img src="img/slidepic4.jpg" /></li>
+							<li class="slideshow_item swiper-slide"><img src="img/slidepic5.jpg" /></li>
+						</ul>
+					    <div class="swiper-pagination"></div>
+
+					    <div class="slideshow_btn_prev swiper-button-prev"></div>
+					    <div class="slideshow_btn_next swiper-button-next"></div>
+					</div>-->
+					<div class="banner_container" id="bannerContainer">
+						<ul class="banner_inner" id="bannerInner">
+							<li class="banner_item"><img class="img" src="img/slidepic3.jpg" /></li>
+							<li class="banner_item"><img class="img" src="img/slidepic1.jpg" /></li>
+							<li class="banner_item"><img class="img" src="img/slidepic2.jpg" /></li>
+							<li class="banner_item"><img class="img" src="img/slidepic4.jpg" /></li>
+						</ul>
+						<!--分页器--> 
+		
+						<!--<ol class="banner_dot">
+							<li class="cur"></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>-->
+						
+						<!--导航按钮--> 
+						<div class="prev_btn pn_btn" id="prevBtn"><i class="iconfont prev_icon" onselectstart="return false">&#xe693;</i></div>
+					    <div class="next_btn pn_btn" id="nextBtn"><i class="iconfont next_icon" onselectstart="return false">&#xe694;</i></div>
+					</div>
+					
+					<div class="focus_login_box">
+						<div class="focus_login_content">
+							<!--标准登陆-->
+							<div class="f_normal_login" id="fNormalLogin">
+								<div class="f_login_title">
+									<h3 class="h3">账号登陆</h3>
+									<p><span class="tips" id="nTips"></span><a class="phone_login_btn t_login_btn" id="phoneLoginBtn" href="javascript:void(0);">短信登陆</a></p>
+								</div>
+								<form class="f_login_form" autocomplete="on">
+									<div class="login_input_panel">
+										<div class="login_input">
+											<i class="iconfont u_name_icon">&#xe6c9;</i>
+											<input type="text" name="username" class="login_un input" id="nLoginUername"  placeholder="邮箱/账号/手机号"/>
+										</div>
+										<div class="login_input">
+											<i class="iconfont u_pwd_icon">&#xe638;</i>
+											<input type="password" name="password" class="login_pwd input" id="nLoginPwd" placeholder="密码" />
+										</div>
+									</div>
+									<div class="verifycode">
+										<img src=""/>
+										<a href="javascript:void(0);">换一张</a>
+									</div>
+									<div class="login_help_panel">
+										<label class="checkbox_label">
+											<input type="checkbox" class="login_form_checkbox"/>
+											<span class="label_txt">记住密码</span>
+										</label>
+										<a class="login_forget_pwd" href="#">忘记密码</a>
+										<a class="register" href="html/register.html">立即注册</a>
+									</div>
+									<div class="login_btn_panel">
+										<a title="点击登录" href="javascript:void(0);" class="login_btn" id="nSub">登录</a>
+									</div>
+								</form>
+								<div class="other_login">
+									<span>其他账号登录：</span>
+									<ul class="other_login_list">
+										<li><a class="weixin_login" title="微信账号登录" href="#"></a></li>
+										<li><a class="qq_login" title="QQ账号登录" href="#"></a></li>
+										<li><a class="weibo_login" title="新浪微博账号登录" href="#"></a></li>
+									</ul>
+								</div>
+							</div>
+						
+							<!--手机短信登陆-->
+							<div class="f_phone_login" id="fPhoneLogin">
+								<div class="f_login_title">
+									<h3 class="h3">短信登陆</h3>
+									<p><a class="normal_login_btn t_login_btn" id="normalLoginBtn" href="javascript:void(0);">账号登陆</a></p>
+								</div>
+								<div class="f_login_form">
+									<form action="" method="post">
+										<div class="login_input phone_num_box">
+											<i class="iconfont phone_num_icon">&#xe697;</i>
+											<input type="text" name="phone_num" class="login_phone_num input"  placeholder="请输入手机号"/>
+										</div>
+										<div class="login_input phone_pwd_box">
+											<input type="text" name="password" class="phone_pwd" placeholder="动态密码" />
+											<input type="button" class="get_pwd_btn" value="发送动态密码" />
+										</div>
+										<div class="login_btn_panel">
+											<a title="点击登录" href="javascript:void(0);" class="login_btn">登录</a>
+										</div>
+									</form>
+								</div>		
+								<div class="other_login">
+									<span>其他账号登录：</span>
+									<ul class="other_login_list">
+										<li><a class="weixin_login" title="微信账号登录" href="#"></a></li>
+										<li><a class="qq_login" title="QQ账号登录" href="#"></a></li>
+										<li><a class="weibo_login" title="新浪微博账号登录" href="#"></a></li>
+									</ul>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</div> 
+		    </div>   
+		</div>
+		
+		<!--main-->
+		<div class="main">
+			<div class="main_panel">
+				<div class="left_menu" id="leftMenu">
+					<ul>
+						<li class="cur"><a href="#">热点</a></li>
+						<li><a href="#">娱乐</a></li>
+						<li><a href="#">视频</a></li>
+						<li><a href="#">国外</a></li>
+						<li><a href="#">牛人</a></li>
+						<li><a href="#">潮流</a></li>
+						<li><a href="#">文学</a></li>
+						<li><a href="#">游戏</a></li>
+					</ul>
+				</div>
+				<div class="main_container">
+					<div class="main_feed">
+						<div class="feed_conteainer">
+							<div class="feed_inner">
+								<ul class="feed_hot_list feed_list">
+									<li class="f_item">
+										<!--f_item_head-->
+										<div class="f_item_head">
+											<div class="f_user_img">
+												<a href="#" target="_blank"><img src="img/slidepic2.jpg"/></a>
+											</div>
+											<div class="f_user_info">
+												<a href="#" target="_blank" class="f_name">看书写信玩游戏</a>
+												<span class="sub_time">昨天 18:00</span>
+											</div>
+											<div class="f_user_op">
+												<a href="javascript:;" class="upfold_icon_link"><i class="upfold_icon iconfont">&#xe692;</i></a>
+											</div>
+										</div>
+										<!--f_item_content-->
+										<div class="f_item_content" href="#">
+											<div class="f_item_info">
+												<div class="f_txt"><p>
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒
+												</p></div>
+												<div class="f_img"><img src="img/slidepic1.jpg"/></div>
+											</div>
+										</div>
+										<!--f_item_foot-->
+										<div class="f_item_foot">
+											<a><i></i>浏览 2000</a>
+											<p class="foot_op_list">
+												<a href="" class="star_btn"><i class="iconfont star_icon">&#xe696;</i>500</a>
+												<a href="" class="reply_btn"><i class="iconfont reply_icon">&#xe6ad;</i>400</a>
+												<a href="" class="praise_btn"><i class="iconfont praise_icon">&#xe677;</i>300</a>
+											</p>
+										</div>
+									</li>									
+									<li class="f_item">
+										<!--f_item_head-->
+										<div class="f_item_head">
+											<div class="f_user_img">
+												<a href="#" target="_blank"><img src="img/slidepic2.jpg"/></a>
+											</div>
+											<div class="f_user_info">
+												<a href="#" target="_blank" class="f_name">看书写信玩游戏</a>
+												<span class="sub_time">昨天 18:00</span>
+											</div>
+											<div class="f_user_op">
+												<a href="javascript:;" class="upfold_icon_link"><i class="upfold_icon iconfont">&#xe692;</i></a>
+											</div>
+										</div>
+										<!--f_item_content-->
+										<div class="f_item_content" href="#">
+											<div class="f_item_info">
+												<div class="f_txt"><p>
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒
+												</p></div>
+												<div class="f_img"><img src="img/slidepic1.jpg"/></div>
+											</div>
+										</div>
+										<!--f_item_foot-->
+										<div class="f_item_foot">
+											<a><i></i>浏览 2000</a>
+											<p class="foot_op_list">
+												<a href="" class="star_btn"><i class="iconfont star_icon">&#xe696;</i>500</a>
+												<a href="" class="reply_btn"><i class="iconfont reply_icon">&#xe6ad;</i>400</a>
+												<a href="" class="praise_btn"><i class="iconfont praise_icon">&#xe677;</i>300</a>
+											</p>
+										</div>
+									</li>
+									<li class="f_item">
+										<!--f_item_head-->
+										<div class="f_item_head">
+											<div class="f_user_img">
+												<a href="#" target="_blank"><img src="img/slidepic2.jpg"/></a>
+											</div>
+											<div class="f_user_info">
+												<a href="#" target="_blank" class="f_name">看书写信玩游戏</a>
+												<span class="sub_time">昨天 18:00</span>
+											</div>
+											<div class="f_user_op">
+												<a href="javascript:;" class="upfold_icon_link"><i class="upfold_icon iconfont">&#xe692;</i></a>
+											</div>
+										</div>
+										<!--f_item_content-->
+										<div class="f_item_content" href="#">
+											<div class="f_item_info">
+												<div class="f_txt"><p>
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒！
+													♡ 天气越来越冷啦，我喜欢的人啊，你们都要多穿点。特别冷的话，那抱抱我也是可以哒
+												</p></div>
+												<div class="f_img"><img src="img/slidepic1.jpg"/></div>
+											</div>
+										</div>
+										<!--f_item_foot-->
+										<div class="f_item_foot">
+											<a><i></i>浏览 2000</a>
+											<p class="foot_op_list">
+												<a href="" class="star_btn"><i class="iconfont star_icon">&#xe696;</i>500</a>
+												<a href="" class="reply_btn"><i class="iconfont reply_icon">&#xe6ad;</i>400</a>
+												<a href="" class="praise_btn"><i class="iconfont praise_icon">&#xe677;</i>300</a>
+											</p>
+										</div>
+									</li>
+									<li class="feed_item"></li>
+									<li class="feed_item"></li>
+									<li class="feed_item"></li>
+									<li class="feed_item"></li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+					<!--main_sidebar-->
+					<div class="main_sidebar">
+						<ul class="s_part_list">
+							<li class="s_part_item">
+								<div class="app_download_box">
+									<div class="app_download_head">
+										<span>扫二维码下载手机客户端</span>
+									</div>
+									<div class="app_download_content">
+										<div class="app_download_info">
+											<span>下载小柴APP</span><br />
+											<span>随时随地了解校内外信息</span>
+										</div>
+										<div class="app_download_img"><img src="img/appQRCode.jpg"/></div>
+									</div>
+								</div>
+							</li class="s_part_item">
+							<li class="s_part_item">
+								<div class="hot_see_box">
+									<h1>大家都在看<a href="" target="_blank">查看更多</a></h1>
+									<ul class="hot_see_list">
+										<li class="hot_see_item">
+											<div class="hot_see_img"><a href="" target="_blank"><img src="img/slidepic4.jpg"/></a></div>
+											<div class="hot_see_info">
+												<p class="hot_see_title"><a href="" target="_blank">受害老人家属同意尸检赔偿仍未落实赔偿仍未落实仍未落实</a></p>
+												<p class="see_icon_num"><i class="see_icon iconfont">&#xe9d5;</i>2000</p>
+											</div>
+										</li>
+										<li class="hot_see_item">
+											<div class="hot_see_img"><a href="" target="_blank"><img src="img/slidepic4.jpg"/></a></div>
+											<div class="hot_see_info">
+												<p class="hot_see_title"><a href="" target="_blank">赔偿仍未</a></p>
+												<p class="see_icon_num"><i class="see_icon iconfont">&#xe9d5;</i>2000</p>
+											</div>
+										</li>
+										<li class="hot_see_item">
+											<div class="hot_see_img"><a href="" target="_blank"><img src="img/slidepic4.jpg"/></a></div>
+											<div class="hot_see_info">
+												<p class="hot_see_title"><a href="" target="_blank">受害老人家属同意尸检赔偿仍未落实赔偿仍未落实仍未落实</a></p>
+												<p class="see_icon_num"><i class="see_icon iconfont">&#xe9d5;</i>2000</p>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="s_part_item">
+								<div class="entertainment_box">
+									<h1>娱乐事儿<a href="" target="_blank">查看更多</a></h1>
+									<ul class="etm_list">
+										<li><a href="" target="_blank">小柴社区小柴社区小柴社区小柴社区小柴社区小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+										<li><a href="" target="_blank">小柴社区</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>						
+					</div>
+				</div>
+				<!--fix_layout-->
+				<div class="fix_layout">
+					<div class="toTop_layout_inner" id="toTop_layout_inner">
+						<a href="javascript:void(0);" id="toTopBtn" class="toTop_btn">
+							<i class="toTop_icon iconfont" title="返回顶部">&#xe695;</i>
+							<span class="toTop_text">顶部</span>
+						</a>
+						<a href="javascript:void(0);" class="hot_msg_btn" id="hotMsgBtn">
+							<span class="hot_msg__text" >热点</span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer">
+			<p>
+				©2017 xiaochai 版权所有
+				<a rel="noreferrer" href="">关于小柴</a>
+				<a rel="noreferrer" href="">社区协议</a>
+				<a rel="noreferrer" href="">投诉反馈</a>
+				<a class="jgwab" rel="noreferrer" href="" target="_blank">京公网安备 000000000号<i></i></a>
+			</p>		
+		</div>
+		
+		
+	</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<!--<script src="js/swiper-3.4.2.min.js"></script>-->
+<!--<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay:3000,
+    //操作后不停止自动播放
+    autoplayDisableOnInteraction:false,
+    //分页器
+    pagination: '.swiper-pagination',    
+    //前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+
+  })        
+</script>-->
