@@ -175,7 +175,6 @@ body{
     text-align: center;
     background-color: #fff;
     border: 1px solid #E1E4E8;
-    box-shadow: 0 3px 12px #E1E4E8;
     border-radius: 4px;
     display: none;
 }
@@ -223,8 +222,9 @@ body{
     /*transform: translateZ(0px);*/
     /*position: relative;*/
     width: 180px;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     text-align: center;
+    background-color: #fff;
 }
 .main_panel .main_content .content_menu .menu_item{
 	display: block;
@@ -237,7 +237,7 @@ body{
 }
 .main_panel .main_content .content_menu .menu_divider{
 	height: 1px;
-	background-color: #000;
+	background-color: #ccc;
 	margin: 6px 0;
 }
 /*--------------content_feed_container---------------------*/
@@ -453,8 +453,9 @@ body{
 .c_sidebar .c_user_box{
 	height: 210px;
     overflow: hidden;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     text-align: center;
+    background-color: #fff;
 }
 .c_sidebar .c_user_box .user_photo a img{
 	width: 65px;

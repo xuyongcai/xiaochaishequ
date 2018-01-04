@@ -437,7 +437,6 @@ body{
     background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
     border-radius: 3px;
     color: #fff;
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
 }
 .focus_login_box .focus_login_content .other_login{
     color: #808080;
@@ -544,11 +543,17 @@ body{
     color: #000;
     height: 45px;
     line-height: 45px;
+    margin-bottom: 4px;
     border-radius: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     /*border: 1px solid black;*/
+}
+.main .main_panel .left_menu>ul>li a:hover{
+	background-color: #459ae9;
+	background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
+	color: #fff;
 }
 .main .main_panel .left_menu>ul>li.cur a{
 	color: #fff;

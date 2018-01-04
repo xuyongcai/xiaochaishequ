@@ -62,7 +62,8 @@ $(function(){
 			alert("登陆失败")
 			return false;
 		}
-		alert("登陆成功")
+		alert("登陆成功");
+		window.open("../html/home.html");
 	})
 	
 })
