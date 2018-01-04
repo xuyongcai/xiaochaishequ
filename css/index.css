@@ -437,7 +437,6 @@ body{
     background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
     border-radius: 3px;
     color: #fff;
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
 }
 .focus_login_box .focus_login_content .other_login{
     color: #808080;
@@ -544,11 +543,17 @@ body{
     color: #000;
     height: 45px;
     line-height: 45px;
+    margin-bottom: 4px;
     border-radius: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     /*border: 1px solid black;*/
+}
+.main .main_panel .left_menu>ul>li a:hover{
+	background-color: #459ae9;
+	background: linear-gradient(128deg, #457ae9 0%, #459ae9 90%);
+	color: #fff;
 }
 .main .main_panel .left_menu>ul>li.cur a{
 	color: #fff;
@@ -857,10 +862,10 @@ body{
 
 
 @font-face {
-  font-family: 'iconfont';  /* project id 517659 */
-  src: url('//at.alicdn.com/t/font_517659_uh4me834qcs7nwmi.eot');
-  src: url('//at.alicdn.com/t/font_517659_uh4me834qcs7nwmi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_517659_uh4me834qcs7nwmi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_517659_uh4me834qcs7nwmi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_517659_uh4me834qcs7nwmi.svg#iconfont') format('svg');
+	font-family: "iconfont";
+  	src: url('../font/iconfont.eot'); /* IE9*/
+ 	src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+  	url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  	url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }

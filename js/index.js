@@ -200,6 +200,9 @@ $(function(){
 		var $nLoginUername = $("#nLoginUername");
 		var $nLoginPwd = $("#nLoginPwd");
 		var msg = "";
+		if(($.trim($nLoginUername.val()) == "")&&($.trim($nLoginPwd.val()) == "")){
+			window.open("html/login.html");
+		}
 		if($.trim($nLoginUername.val()) == ""){
 			msg = "用户名不能为空!"
 			$("#nTips").text(msg).show();
@@ -223,14 +226,21 @@ $(function(){
 			alert("登陆失败")
 			return false;
 		}
-		alert("登陆成功")
+		alert("登陆成功");
+		window.open("html/home.html");
 	})
 	// 监听是否按了回车键  
-    $(document).keydown(function(event){  
+    $(".input").keydown(function(event){  
         if (event.keyCode === 13){ // 按了回车键  
             $("#nSub").trigger("click");  
         }  
     }); 
+    
+// ----------- leftMenu点击 --------------------
+    $("#leftMenu").find("li").click(function(){
+    	$(this).addClass("cur").siblings("li").removeClass("cur");
+    })
+
 })
 
 
